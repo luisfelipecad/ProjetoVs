@@ -9,12 +9,13 @@ public class Position {
         this.column = column;
     }
 
-
+   // get  return row 
     public int getRow() {
         return row;
     }
 
-
+    
+    // set 
     public void setRow(int row) {
         this.row = row;
     }
@@ -28,11 +29,15 @@ public class Position {
     public void setColumn(int column) {
         this.column = column;
     }
-   
+    
+    // naõ entendi 
+
     public void setValues(int row, int column) {
         this.row = row;
         this.column = column;
     }
+    
+    
    
     @Override
     public String toString() {
